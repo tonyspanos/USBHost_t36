@@ -63,7 +63,7 @@ JoystickController::product_vendor_mapping_t JoystickController::pid_vid_mapping
     { 0x045e, 0x02ea, XBOXONE, false },  // Xbox One S Controller
     { 0x045e, 0x0b12, XBOXONE, false },  // Xbox Core Controller (Series S/X)
     { 0x045e, 0x0719, XBOX360, false},
-    { 0x045e, 0x028E, SWITCH, false},  // Switch?
+    { 0x045e, 0x028E, XBOX360, false},
     { 0x057E, 0x2009, SWITCH, true},   // Switch Pro controller.  // Let the swtich grab it, but...
     { 0x0079, 0x201C, SWITCH, false},
     { 0x054C, 0x0268, PS3, true},
